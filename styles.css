@@ -1,0 +1,155 @@
+
+body{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 190px;
+}
+
+
+.bottom-header {
+    display: flex;
+    padding: 100px 190px; 
+    gap: 20px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+}
+
+.links {
+    Color: #E5E7EB;
+    display: flex;
+    gap: 20px;
+    text-align: end;
+}
+
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.secondary {
+    color: #E5E7EB;
+}
+
+.action {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 150px;
+    padding:  40px 100px;
+    border-radius: 6px;
+}
+
+.action-text {
+    color: #F9FAF8;
+}
+.image1 {
+    background-color: gray;
+    width: 450px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    line-height: 200px;
+    color: #E5E7EB;
+}
+
+.top {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+}
+.image2 {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+}
+.middle {
+    background-color: #E5E7EB;
+    padding: 100px 100px;
+}
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    margin-left: 50px;
+    font-style: italic;
+    padding-left: 100px;
+}
+
+.quoter {
+    text-align: end;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 20px;
+}
